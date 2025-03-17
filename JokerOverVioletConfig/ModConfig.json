@@ -1,8 +1,8 @@
 {
   "ModId": "p5rpc.jokeroversumi",
   "ModName": "Joker over Kasumi",
-  "ModAuthor": "Wisteria",
-  "ModVersion": "1.0.0",
+  "ModAuthor": "Wisteria, Happygrinch08, Otaco",
+  "ModVersion": "0.2",
   "ModDescription": "Replaces Kasumi with Joker",
   "ModDll": "jokerovervioletconfig.dll",
   "ModIcon": "",
@@ -29,24 +29,6 @@
     },
     "GitHubDependencies": {
       "IdToConfigMap": {
-        "BGME.Framework": {
-          "Config": {
-            "UserName": "RyoTune",
-            "RepositoryName": "BGME",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "BGME.Framework.ReleaseMetadata.json"
-        },
-        "BGME.Framework.API": {
-          "Config": {
-            "UserName": "RyoTune",
-            "RepositoryName": "BGME",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "BGME.Framework.API.ReleaseMetadata.json"
-        },
         "crifs.v2.hook": {
           "Config": {
             "UserName": "Sewer56",
@@ -55,33 +37,6 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "CriFs.V2.Hook.ReleaseMetadata.json"
-        },
-        "p5rpc.lib": {
-          "Config": {
-            "UserName": "AnimatedSwine37",
-            "RepositoryName": "p5rpc.lib",
-            "UseReleaseTag": true,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "p5rpc.lib.ReleaseMetadata.json"
-        },
-        "p5rpc.modloader": {
-          "Config": {
-            "UserName": "Sewer56",
-            "RepositoryName": "p5rpc.modloader",
-            "UseReleaseTag": true,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "p5rpc.modloader.ReleaseMetadata.json"
-        },
-        "Reloaded.Memory.SigScan.ReloadedII": {
-          "Config": {
-            "UserName": "Reloaded-Project",
-            "RepositoryName": "Reloaded.Memory.SigScan",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
         },
         "reloaded.sharedlib.hooks": {
           "Config": {
@@ -101,6 +56,15 @@
           },
           "ReleaseMetadataName": "BF.File.Emulator.ReleaseMetadata.json"
         },
+        "reloaded.universal.fileemulationframework.bmd": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "FileEmulationFramework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "BMD.File.Emulator.ReleaseMetadata.json"
+        },
         "reloaded.universal.fileemulationframework.pak": {
           "Config": {
             "UserName": "Sewer56",
@@ -109,6 +73,60 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "PAK.Stream.Emulator.ReleaseMetadata.json"
+        },
+        "Ryo.Reloaded": {
+          "Config": {
+            "UserName": "RyoTune",
+            "RepositoryName": "Ryo",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Ryo.Reloaded.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "BGME.Framework": {
+          "Config": {
+            "UserName": "RyoTune",
+            "RepositoryName": "BGME",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "BGME.Framework.ReleaseMetadata.json"
+        },
+        "BGME.Framework.API": {
+          "Config": {
+            "UserName": "RyoTune",
+            "RepositoryName": "BGME",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "BGME.Framework.API.ReleaseMetadata.json"
+        },
+        "p5rpc.lib": {
+          "Config": {
+            "UserName": "AnimatedSwine37",
+            "RepositoryName": "p5rpc.lib",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "p5rpc.lib.ReleaseMetadata.json"
+        },
+        "p5rpc.modloader": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "p5rpc.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "p5rpc.modloader.ReleaseMetadata.json"
         },
         "reloaded.universal.fileemulationframework.spd": {
           "Config": {
@@ -128,15 +146,6 @@
           },
           "ReleaseMetadataName": "BGME.BattleThemes.ReleaseMetadata.json"
         },
-        "Ryo.Reloaded": {
-          "Config": {
-            "UserName": "RyoTune",
-            "RepositoryName": "Ryo",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "Ryo.Reloaded.ReleaseMetadata.json"
-        },
         "SharedScans.Reloaded": {
           "Config": {
             "UserName": "RyoTune",
@@ -154,15 +163,6 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "CriFs.V2.Hook.Awb.ReleaseMetadata.json"
-        },
-        "reloaded.universal.fileemulationframework.bmd": {
-          "Config": {
-            "UserName": "Sewer56",
-            "RepositoryName": "FileEmulationFramework",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "BMD.File.Emulator.ReleaseMetadata.json"
         },
         "reloaded.universal.fileemulationframework.awb": {
           "Config": {
