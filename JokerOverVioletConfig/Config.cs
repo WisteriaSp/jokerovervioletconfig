@@ -41,6 +41,12 @@ namespace JokerOverVioletConfig.Configuration
         [DefaultValue(false)]
         public bool ProtagSumiCompat { get; set; } = false;
 
+        [Category("Compatibility")]
+        [DisplayName("Auto Compatibility")]
+        [Description("Automatically enables compatibility with Kasumi as Protag if the mod is detected.")]
+        [DefaultValue(true)]
+        public bool ProtagSumiCompatAuto { get; set; } = false;
+
         [Category("Bustup")]
         [DisplayName("placeholder")]
         [Description("placeholder")]
@@ -52,6 +58,12 @@ namespace JokerOverVioletConfig.Configuration
         [Description("Removes the face darkening when summoning a persona. Meant to be used with the No Darkened Faces mod, disable if you'd like.")]
         [DefaultValue(true)]
         public bool DarkenedFaceJoker { get; set; } = true;
+
+        [Category("Misc")]
+        [DisplayName("Change name to Akira Kurusu")]
+        [Description("Changes the name from Ren to Akira Kurusu.")]
+        [DefaultValue(false)]
+        public bool NameChange { get; set; } = false;
     }
 
     /// <summary>

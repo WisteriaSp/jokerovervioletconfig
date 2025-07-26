@@ -16,17 +16,6 @@
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p5rpc.jokeroversumi.ReleaseMetadata.json",
   "PluginData": {
-    "GameBananaDependencies": {
-      "IdToConfigMap": {
-        "P5R.CostumeFramework": {
-          "Config": {
-            "ItemType": "Mod",
-            "ItemId": 488633
-          },
-          "ReleaseMetadataName": "P5R.CostumeFramework.ReleaseMetadata.json"
-        }
-      }
-    },
     "GitHubDependencies": {
       "IdToConfigMap": {
         "crifs.v2.hook": {
@@ -37,6 +26,15 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "CriFs.V2.Hook.ReleaseMetadata.json"
+        },
+        "P5R.CostumeFramework": {
+          "Config": {
+            "UserName": "RyoTune",
+            "RepositoryName": "P5R.CostumeFramework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "P5R.CostumeFramework.ReleaseMetadata.json"
         },
         "reloaded.sharedlib.hooks": {
           "Config": {
@@ -164,6 +162,33 @@
           },
           "ReleaseMetadataName": "CriFs.V2.Hook.Awb.ReleaseMetadata.json"
         },
+        "Reloaded.Universal.Localisation.Framework": {
+          "Config": {
+            "UserName": "AnimatedSwine37",
+            "RepositoryName": "Reloaded.Universal.Localisation.Framework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Localisation.Framework.ReleaseMetadata.json"
+        },
+        "Reloaded.Universal.Localisation.Provider.Steam": {
+          "Config": {
+            "UserName": "AnimatedSwine37",
+            "RepositoryName": "Reloaded.Universal.Localisation.Framework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Localisation.Provider.Steam.ReleaseMetadata.json"
+        },
+        "Reloaded.Universal.Localisation.Provider.Windows": {
+          "Config": {
+            "UserName": "AnimatedSwine37",
+            "RepositoryName": "Reloaded.Universal.Localisation.Framework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Localisation.Provider.Windows.ReleaseMetadata.json"
+        },
         "reloaded.universal.fileemulationframework.awb": {
           "Config": {
             "UserName": "Sewer56",
@@ -189,10 +214,12 @@
   "ModDependencies": [
     "crifs.v2.hook",
     "P5R.CostumeFramework",
+    "p5rpc.modloader",
     "reloaded.sharedlib.hooks",
     "reloaded.universal.fileemulationframework.bf",
     "reloaded.universal.fileemulationframework.bmd",
     "reloaded.universal.fileemulationframework.pak",
+    "reloaded.universal.fileemulationframework.spd",
     "Ryo.Reloaded"
   ],
   "OptionalDependencies": [],
@@ -200,5 +227,6 @@
     "p5r.exe"
   ],
   "ProjectUrl": "",
-  "CreatorUrl": ""
+  "CreatorUrl": "",
+  "IsSeparator": false
 }

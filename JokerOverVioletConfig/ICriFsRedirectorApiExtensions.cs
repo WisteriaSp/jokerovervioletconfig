@@ -1,6 +1,6 @@
 ﻿using CriFs.V2.Hook.Interfaces;
 
-namespace P5R.CostumeFramework;
+namespace CriExtensions;
 
 internal static class ICriFsRedirectorApiExtensions
 {

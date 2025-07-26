@@ -14,6 +14,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BF.File.Emulator.Interfaces
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMD.File.Emulator.Interfaces", "Interfaces\FileEmulationFramework\Emulator\Interfaces\BMD.File.Emulator.Interfaces\BMD.File.Emulator.Interfaces.csproj", "{61D5F706-5C22-42C6-94D9-8E1E7A2120D5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPD.File.Emulator.Interfaces", "Interfaces\FileEmulationFramework\Emulator\Interfaces\SPD.File.Emulator.Interfaces\SPD.File.Emulator.Interfaces.csproj", "{32637324-593F-4817-AD83-C943459558AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAK.Stream.Emulator.Interfaces", "Interfaces\FileEmulationFramework\Emulator\Interfaces\PAK.Stream.Emulator.Interfaces\PAK.Stream.Emulator.Interfaces.csproj", "{64BF521A-F160-4EE9-885B-314572842DD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,14 @@ Global
 		{61D5F706-5C22-42C6-94D9-8E1E7A2120D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61D5F706-5C22-42C6-94D9-8E1E7A2120D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61D5F706-5C22-42C6-94D9-8E1E7A2120D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32637324-593F-4817-AD83-C943459558AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32637324-593F-4817-AD83-C943459558AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32637324-593F-4817-AD83-C943459558AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32637324-593F-4817-AD83-C943459558AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BF521A-F160-4EE9-885B-314572842DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BF521A-F160-4EE9-885B-314572842DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BF521A-F160-4EE9-885B-314572842DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BF521A-F160-4EE9-885B-314572842DD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

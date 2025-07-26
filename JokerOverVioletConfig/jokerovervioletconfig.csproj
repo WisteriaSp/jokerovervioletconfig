@@ -43,6 +43,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FileEmulationFramework.Interfaces" Version="2.0.0" />
+    <PackageReference Include="P5R.CostumeFramework.Interfaces" Version="1.0.0" />
     <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
     <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.9.0" />
   </ItemGroup>
@@ -51,6 +53,8 @@
     <ProjectReference Include="..\Interfaces\CriFs.V2.Hook.ReloadedII\Interfaces\CriFs.V2.Hook.Interfaces\CriFs.V2.Hook.Interfaces.csproj" />
     <ProjectReference Include="..\Interfaces\FileEmulationFramework\Emulator\Interfaces\BF.File.Emulator.Interfaces\BF.File.Emulator.Interfaces.csproj" />
     <ProjectReference Include="..\Interfaces\FileEmulationFramework\Emulator\Interfaces\BMD.File.Emulator.Interfaces\BMD.File.Emulator.Interfaces.csproj" />
+    <ProjectReference Include="..\Interfaces\FileEmulationFramework\Emulator\Interfaces\PAK.Stream.Emulator.Interfaces\PAK.Stream.Emulator.Interfaces.csproj" />
+    <ProjectReference Include="..\Interfaces\FileEmulationFramework\Emulator\Interfaces\SPD.File.Emulator.Interfaces\SPD.File.Emulator.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
