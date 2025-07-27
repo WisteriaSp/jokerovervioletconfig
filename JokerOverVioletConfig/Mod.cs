@@ -52,7 +52,7 @@ namespace JokerOverVioletConfig
             var isKasumiProtagActive = mods.Any(x => x.Generic.ModId == "p5rpc.kasumiasprotag");
             _logger.WriteLine($"Is Kasumi as Protagonist active? {isKasumiProtagActive}", System.Drawing.Color.Magenta);
 
-            // Sumire Overhaul
+            // Darkened Face
             if (_configuration.DarkenedFaceJoker)
                 BindAllFilesIn(Path.Combine("OptionalModFiles", "Model", "DarkenedFace"), modDir, criFsApi, modId);
 
@@ -66,7 +66,10 @@ namespace JokerOverVioletConfig
                 }
             }
             if (_configuration.ProtagSumiCompat)
-                BindAllFilesIn(Path.Combine("OptionalModFiles", "Compat", "ProtagSumi"), modDir, criFsApi, modId);
+            {
+                BindAllFilesIn(Path.Combine("OptionalModFiles", "Compat", "ProtagSumi", "Bind"), modDir, criFsApi, modId);
+                bmdEmu.AddDirectory(Path.Combine(modDir, "OptionalModFiles", "Compat", "ProtagSumi", "BMD"));
+            }
 
             // Skillset
             if (_configuration.SkillsetJoker)
